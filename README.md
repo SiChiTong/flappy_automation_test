@@ -3,13 +3,13 @@
 This repository contains the Flappy Bird game modified to be controlled with ROS as well as the C++ algorithm to automatically control it.
 
 ![Flappy](flappy_cover.png)
-[![Watch the video](flappy_cover.png)](Recording.avi)
+[![Watch the video]](Recording.avi)
 
 ## Getting Started
 
-*This game has been tested with Ubuntu 16.04 running ROS Kinetic and Pygame (Python 2.7.)*
+*This game has been tested with Ubuntu 16.04 running ROS Kinetic and Pygame (Python 2.7.).*
 
-*If you don't have ROS installed in your system, you can install ROS and setup a workspace as covered here [[ROS install guide]](http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment).
+*If you don't have ROS installed in your system, you can install ROS and setup a workspace as covered here [[ROS install guide]](http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment).*
 
 *If you don't have Pygame installed, you can do so by typing the following code in the Ubuntu Terminal:*
 ```
@@ -51,4 +51,4 @@ Axis convention: x &rarr;, y &uarr;
 | Velocity      | meters/s           | /flappy_vel | [Vector3 message definition](http://docs.ros.org/en/noetic/api/geometry_msgs/html/msg/Vector3.html) | 
 | Acceleration  | meters/s^2         | /flappy_acc | [Vector3 message definition](http://docs.ros.org/en/noetic/api/geometry_msgs/html/msg/Vector3.html) |
 | LaserScan     | Radians, meters      | /flappy_laser_scan | [LaserScan message definition](http://docs.ros.org/api/sensor_msgs/html/msg/LaserScan.html) |
-| Points        | meters      | /flappy_point_path | Point message definition](http://docs.ros.org/en/noetic/api/geometry_msgs/html/msg/Point.html) |
+| Points        | meters      | /flappy_point_path | [Point message definition](http://docs.ros.org/en/noetic/api/geometry_msgs/html/msg/Point.html) |
