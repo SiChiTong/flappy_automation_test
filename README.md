@@ -3,6 +3,7 @@
 This repository contains the Flappy Bird game modified to be controlled with ROS as well as the C++ algorithm to automatically control it.
 
 ![Flappy](flappy_cover.png)
+[![Watch the video](flappy_cover.png)](Recording.avi)
 
 ## Getting Started
 
@@ -43,11 +44,11 @@ The velocity measurement is noise free
 Max acceleration x: 3.0 m/s^2  
 Max acceleration y: 35.0 m/s^2  
 Axis convention: x &rarr;, y &uarr;  
-[LaserScan message definition](http://docs.ros.org/api/sensor_msgs/html/msg/LaserScan.html)
 
-| Value         | Unit           | Topic  |
-| ------------- |:-------------:| :-----:|
-| Velocity      | meters/s           | /flappy_vel |
-| Acceleration  | meters/s^2         | /flappy_acc |
-| LaserScan     | Radians, meters      | /flappy_laser_scan |
-| Points        | meters      | /flappy_point_path |
+
+| Value         | Unit           | Topic  | Info |
+| ------------- |:-------------:| :-----:| :-----:|
+| Velocity      | meters/s           | /flappy_vel | [Vector3 message definition](http://docs.ros.org/en/noetic/api/geometry_msgs/html/msg/Vector3.html) | 
+| Acceleration  | meters/s^2         | /flappy_acc | [Vector3 message definition](http://docs.ros.org/en/noetic/api/geometry_msgs/html/msg/Vector3.html) |
+| LaserScan     | Radians, meters      | /flappy_laser_scan | [LaserScan message definition](http://docs.ros.org/api/sensor_msgs/html/msg/LaserScan.html) |
+| Points        | meters      | /flappy_point_path | Point message definition](http://docs.ros.org/en/noetic/api/geometry_msgs/html/msg/Point.html) |
