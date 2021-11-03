@@ -1,6 +1,6 @@
 # Flappy Bird Automation Game
 
-This repository contains the Flappy Bird game modified to be controlled with ROS as well as the C++ algorithm to automatically control it.
+This repository contains the Flappy Bird game, modified to be controlled with ROS as well as the C++ algorithm to automatically control it.
 
 ![Flappy](flappy_cover.png)
 
