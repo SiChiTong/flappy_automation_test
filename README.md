@@ -15,7 +15,7 @@ This repository contains the Flappy Bird game modified to be controlled with ROS
 sudo apt-get install python-pygame
 ```
 
-## Runthe simulation
+## Run the simulation
 
 Open the Ubuntu Terminal and navigate to your workspace location:
 ```
